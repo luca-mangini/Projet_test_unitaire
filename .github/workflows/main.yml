@@ -28,6 +28,6 @@ jobs:
       # Install
       - name: Install 
         run: apt-get update
-        run: apt-get install python3 -y
-        run: apt-get install python3-pip -y
+        apt-get install python3 -y
+        apt-get install python3-pip -y
 
