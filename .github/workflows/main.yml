@@ -39,7 +39,7 @@ jobs:
         run: pip install streamlit
 
       - name: Install Jinja2
-        run: pip install jinja2
+        run: apt-get update && apt-get install
 
       # Modele
       - name: Modèless
