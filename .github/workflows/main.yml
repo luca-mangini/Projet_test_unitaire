@@ -41,7 +41,7 @@ jobs:
         run: python -m pytest mldash-main/test_model.py
 
       - name: Cypress run
-        uses: cypress-io/github-action@v4
-          with:
-            start: npm start
-            working-directory: e2e
+      - uses: cypress-io/github-action@v4
+        with:
+          start: npm start
+          working-directory: e2e
