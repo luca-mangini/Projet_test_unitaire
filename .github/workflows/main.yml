@@ -1,4 +1,4 @@
-name: GitHub Actions Demo
+name: Pipeline GitHub
 on: [push]
 jobs:
   Explore-GitHub-Actions:
@@ -20,8 +20,8 @@ jobs:
       - name: Install streamlit
         run: pip install streamlit
 
-      #- name: Install Jinja2
-        #run: pip install jinja2
+      - name: Install Jinja2
+        run: pip install --upgrade jinja2
 
       # Modele
       - name: Modèless
