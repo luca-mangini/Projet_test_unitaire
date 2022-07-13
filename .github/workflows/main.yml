@@ -36,6 +36,9 @@ jobs:
       - name: Modèless
         run: python mldash-main/build_model.py
 
+      - name: lancement application streamlit
+        run: streamlit run mldash-main/model_dashborad.py
+
       # Test
       - name: Test unitaires
         run: python -m pytest mldash-main/test_model.py
