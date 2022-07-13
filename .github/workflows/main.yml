@@ -35,6 +35,9 @@ jobs:
       - name: Install pytest
         run: pip install pytest
 
+      - name: Install steamlit
+        run: pip install steamlit
+
       # Modele
       - name: Modèless
         run: python mldash-main/build_model.py
