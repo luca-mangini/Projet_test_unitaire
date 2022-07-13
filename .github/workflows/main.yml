@@ -27,8 +27,7 @@ jobs:
 
       # Install
       - name: Install pandas,sklearn
-        run: pip install pandas
-        run: pip install sklearn
+        run: pip install pandas,pip install sklearn
 
       # Modele
       - name: Modèless
