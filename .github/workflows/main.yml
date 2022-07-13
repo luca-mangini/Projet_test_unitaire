@@ -26,7 +26,9 @@ jobs:
       - uses: actions/checkout@v3
 
       # Install
-      - name: Install 
+      - name: Install pandas
         run: pip install pandas
 
-#python mldash-main/build_model.py
+      # Modele
+      - name: Modèless
+        run: python mldash-main/build_model.py
