@@ -32,7 +32,7 @@ describe('Test Valeur négative garden', () => {
     cy.visit('http://localhost:8501/')
     cy.get('input').eq(0).clear().type(250)
     cy.get('input').eq(1).clear().type(2)
-    cy.get('input').eq(2).clear().type(-1)
+    cy.get('input').eq(2).clear().type(-1).type('{enter}')
     cy.get('p').eq(0).contains('mettre nombre de jardin correct')
   })
 })
