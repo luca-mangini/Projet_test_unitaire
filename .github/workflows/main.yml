@@ -29,6 +29,8 @@ jobs:
       - name: Install cypress
         run: npm install cypress --save-dev
 
+      - name: ls
+        run: ls
 
       # Modele
       - name: Modèless
