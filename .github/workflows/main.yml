@@ -31,6 +31,14 @@ jobs:
 
       - name: Install sklearn
         run: pip install sklearn
+
+      - name: Install pytest
+        run: pip install pytest
+
       # Modele
       - name: Modèless
         run: python mldash-main/build_model.py
+
+      # Modele
+      - name: Test unitaires
+        run: pytest mldash-main/test_model.py
