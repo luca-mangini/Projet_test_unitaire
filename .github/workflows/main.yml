@@ -27,6 +27,5 @@ jobs:
 
       # Install
       - name: Install 
-        run: ls
-        #run: python Projet_test_unitaire/mldash-main/build_model.py
+        run: python mldash-main/build_model.py
 
