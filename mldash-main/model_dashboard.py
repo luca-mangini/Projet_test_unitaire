@@ -23,7 +23,7 @@ if nb_rooms <= 0:
 if garden < 0:
     st.write("mettre nombre de jardin correct")
 
-if taille > 0 and nb_rooms > 0:
+if taille > 0 and nb_rooms > 0 and garden >= 0:
         
     X = [[taille, nb_rooms, garden]]
     prediction = model.predict(X)
