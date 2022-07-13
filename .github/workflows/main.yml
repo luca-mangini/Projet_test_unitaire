@@ -23,8 +23,9 @@ jobs:
       - name: Install streamlit
         run: pip install streamlit
 
-      - name: NodeJS 
-        run: pip install nodejs
+      - name: Install npm
+        run: sudo apt install nodejs npm
+
       # Modele
       - name: Modèless
         run: python mldash-main/build_model.py
