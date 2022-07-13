@@ -27,5 +27,6 @@ jobs:
 
       # Install
       - name: Install 
-        run: python mldash-main/build_model.py
+        run: pip install pandas
 
+#python mldash-main/build_model.py
