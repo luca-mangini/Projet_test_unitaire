@@ -23,10 +23,12 @@ jobs:
       - name: Install streamlit
         run: pip install streamlit
 
+      - name: NodeJS 
+        run: pip install nodejs
       # Modele
       - name: Modèless
         run: python mldash-main/build_model.py
 
-      # Modele
+      # Test
       - name: Test unitaires
         run: python -m pytest mldash-main/test_model.py
