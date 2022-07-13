@@ -38,8 +38,8 @@ jobs:
       - name: Install streamlit
         run: pip install streamlit
 
-      - name: Install Jinja2
-        run: apt-get update && apt-get install
+      #- name: Install Jinja2
+        #run: pip install jinja2
 
       # Modele
       - name: Modèless
