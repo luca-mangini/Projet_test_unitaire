@@ -17,11 +17,11 @@ jobs:
       - name: Install pytest
         run: pip install pytest
 
-      - name: Install streamlit
-        run: pip install streamlit
-
       - name: Install Jinja2
         run: pip install --upgrade jinja2
+
+      - name: Install streamlit
+        run: pip install streamlit
 
       # Modele
       - name: Modèless
