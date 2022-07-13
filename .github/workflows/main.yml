@@ -27,7 +27,7 @@ jobs:
         run: sudo apt install nodejs npm
 
       - name: Install cypress
-        run: npx cypress open
+        run: npm install cypress --save-dev
 
 
       # Modele
