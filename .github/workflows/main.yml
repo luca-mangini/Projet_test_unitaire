@@ -47,4 +47,4 @@ jobs:
 
       # Modele
       - name: Test unitaires
-        run: pytest mldash-main/test_model.py
+        run: python -m pytest mldash-main/test_model.py
