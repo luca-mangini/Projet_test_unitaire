@@ -42,3 +42,5 @@ jobs:
 
       - name: Cypress run
         uses: cypress-io/github-action@v4
+        with:
+          env: host=api.dev.local,port=4222
