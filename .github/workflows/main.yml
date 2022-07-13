@@ -32,3 +32,10 @@ jobs:
       # Test
       - name: Test unitaires
         run: python -m pytest mldash-main/test_model.py
+
+      - name: Cypress run
+        uses: cypress-io/github-action@v1
+        with:
+          build: npm run build
+          start: npm start
+          wait-on: http://localhost:3030
