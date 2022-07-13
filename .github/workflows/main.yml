@@ -26,6 +26,10 @@ jobs:
       - name: Install npm
         run: sudo apt install nodejs npm
 
+      - name: Install cypress
+        run: npx cypress open
+
+
       # Modele
       - name: Modèless
         run: python mldash-main/build_model.py
