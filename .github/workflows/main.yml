@@ -40,7 +40,6 @@ jobs:
       - name: Test unitaires
         run: python -m pytest mldash-main/test_model.py
 
-      - uses: cypress-io/github-action@v4
-        with:
-          start: npm start
-          working-directory: e2e
+      - name: Cypress run
+        uses: cypress-io/github-action@v4
+        
