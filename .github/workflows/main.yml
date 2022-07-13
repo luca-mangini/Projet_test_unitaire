@@ -38,6 +38,9 @@ jobs:
       - name: Install streamlit
         run: pip install streamlit
 
+      - name: Install Jinja2
+        run: pip install Jinja2
+
       # Modele
       - name: Modèless
         run: python mldash-main/build_model.py
